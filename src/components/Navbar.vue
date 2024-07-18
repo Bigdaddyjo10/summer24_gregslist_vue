@@ -40,6 +40,11 @@ function toggleTheme() {
               Houses
             </router-link>
           </li>
+           <li>
+              <router-link :to="{ name: 'Pets' }" class="btn text-success lighten-30 selectable text-uppercase">
+                Pets
+              </router-link>
+            </li>
       </ul>
       <!-- LOGIN COMPONENT HERE -->
       <div>

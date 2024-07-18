@@ -10,5 +10,7 @@ export const AppState = reactive({
   /** @type {import('./models/Car.js').Car[]} */
   cars: [],
   /** @type {import('./models/House.js').House[]} */
-  houses: []
+  houses: [],
+  /** @type {import('./models/Pet.js').Pat[]} */
+  pets: []
 })

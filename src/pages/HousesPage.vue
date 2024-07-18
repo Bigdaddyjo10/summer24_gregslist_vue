@@ -35,11 +35,9 @@ await housesService.getHouses()
     </section>
   </div>
   <div class="row">
-    <div class="col-11">
         <div v-for="house in houses" class=" py-2" >
           <HousesCard :houseProp="house"/>
       </div>
-    </div>
   </div>
 
 </template>

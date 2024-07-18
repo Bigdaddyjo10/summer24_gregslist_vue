@@ -14,3 +14,29 @@ export class House {
     this.levels = data.levels
   }
 }
+
+
+// "bedrooms": {
+//   "type": "Number",
+//   "required": true
+// },
+// "bathrooms": {
+//   "type": "Number",
+//   "required": true
+// },
+// "levels": {
+//   "type": "Number",
+//   "required": true
+// },
+// "imgUrl": {
+//   "type": "String",
+//   "maxLength": 500
+// },
+// "year": {
+//   "type": "Number",
+//   "required": true
+// },
+// "price": {
+//   "type": "Number",
+//   "required": true
+// },

@@ -7,9 +7,7 @@ import { housesService } from '../services/HousesService.js';
 
 
 defineProps({ houseProp: { type: House} })
-const account = computed(() => {
-AppState.account
-})
+const account = computed(() => { AppState.account })
 
 async function destroyHouse(houseId){
   try {
@@ -25,7 +23,7 @@ async function destroyHouse(houseId){
 
 
 <template>
-  <div class="row house-card">
+  <div class="house-card">
     <div class="col-md-6 px-0">
       <img class="house-img img-fluid" :src="houseProp.imgUrl" alt="">
     </div>
@@ -43,6 +41,7 @@ async function destroyHouse(houseId){
       </div>
       <div class="d-flex justify-content-between
       al align-items-center">
+
         <button @click="destroyHouse(houseProp.id)"
         class="btn btn-outline-danger" title="Delete Car" type="button">
         <i class="mdi mdi-close-octagon fs-3"></i>

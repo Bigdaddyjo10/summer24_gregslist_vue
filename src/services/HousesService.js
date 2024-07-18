@@ -19,7 +19,7 @@ class HousesService {
 
   async getHouses() {
     const response = await api.get('/api/houses')
-    console.log(response.data, '🏡🏡🏡🏡🏡🏡');
+
     const houses = response.data.map(housePOJO => new House(housePOJO))
     AppState.houses = houses
   }
