@@ -19,7 +19,7 @@ async function createHouse(){
   console.log('🔧 🏚️');
   try {
     await housesService.createHouse(editableHouseData.value)
- editableHouseData.value = {
+  editableHouseData.value = {
       bathrooms: 0,
       bedrooms: 0,
       imgUrl: '',

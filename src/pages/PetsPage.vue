@@ -24,6 +24,7 @@ async function getPets(){
 
 
 <template>
+  <PetForm />
   <div class="container">
     <section class="row">
       <div class="col-12">
